@@ -3,12 +3,14 @@
 #include<graphics.h>
 
 using namespace std;
+
 //Xác định mã miền TBRL
 const int INSIDE=0;//0000
 const int LEFT=1;//0001
 const int RIGHT=2;//0010
 const int BOTTOM=4;//0100
 const int TOP=8;//1000
+
 //Xác định x_min,y_min,x_max,y_max cho cửa sổ xén tỉa. Bởi vì
 //những điểm chéo là đủ để xác định một cửa sổ hình chữ nhật
 static int x_min,y_min,x_max,y_max;
